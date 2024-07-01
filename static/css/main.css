@@ -1,0 +1,63 @@
+
+body {
+    color: white;
+    background-color: #1f1f1f;
+}
+
+/* HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    z-index: 1000;
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 6px 8px 0px rgba(255, 255, 255, 0.2);
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    -webkit-box-shadow: 0px -6px 8px 0px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px -6px 8px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px -6px 8px 0px rgba(255, 255, 255, 0.2);
+}
+
+.text-gray {
+    color: #444746;
+}
+
+.bg-gray {
+    background-color: #444746;
+}
+
+.bg-dark-gray {
+    background-color: #1f1f1f;
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+.top-cover {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-top: 15px;
+}
+  
+  .top-name {
+    display: block;
+    width: 100px;
+    max-height: 40px;
+    overflow: hidden;
+    text-align: center;
+}
+  
+  .top-cover,
+  .top-name {
+    margin-left: auto;
+    margin-right: auto;
+}
